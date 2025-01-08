@@ -8,7 +8,7 @@ packer {
 }
 
 source "amazon-ebs" "ubuntu" {
-  ami_name      = "learn-packer-linux-aws-ubuntutest1"
+  ami_name      = "learn-packer-linux-aws-ubuntutest"
   instance_type = "t2.micro"
   region        = "ap-southeast-2"
   source_ami_filter {
